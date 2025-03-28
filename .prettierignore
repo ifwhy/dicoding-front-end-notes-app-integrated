@@ -1,0 +1,6 @@
+# Ignore artifacts:
+img 
+package-lock.json
+node_modules
+tailwind.config.js
+package.json

@@ -1,0 +1,29 @@
+{
+  "name": "notes-app-integrated",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./css/style.css -o ./css/output.css --watch",
+    "start-dev": "webpack serve --config webpack.config.js",
+    "build": "webpack --mode production --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "sweetalert2": "^11.12.4"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "prettier": "3.3.3",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^3.4.10",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "description": ""
+}
